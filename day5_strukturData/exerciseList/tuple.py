@@ -1,10 +1,11 @@
-# Buat program yang menyimpan 3 angka favorit dalam tuple
-# lalu tampilkan angka tersebut satu per satu.
+# Diberikan tuple koordinat = (10, 20), lakukan:
 
-# 🔹 Contoh Output:
+# Ambil nilai x dan y dari tuple.
+# Buat tuple baru dengan nilai (x + 5, y - 5).
+# Cetak tuple hasil akhirnya.
 
-# Angka favorit saya adalah: 7, 21, 99
+x, y = 10, 20
 
-angka = ()
+x1, y2 = (x + 5, y - 5)
 
-inputanAngka = int(input("Masukkan angka favorit"))
+print(x1, y2)
