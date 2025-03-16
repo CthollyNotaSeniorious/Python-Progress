@@ -11,6 +11,6 @@ def add_without_plus_operator(a, b):
         data = a & b
         # XOR 'a' and 'b' to get the sum without considering carry.
         a = a ^ b
-        b = data >> 1
+        b = data << 1
 
     return a

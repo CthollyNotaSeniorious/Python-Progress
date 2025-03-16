@@ -6,5 +6,6 @@
 
 def bitwise_operations(num1, num2):
     # Your code should go here.
+    return f"{num1 & num2} {num1 | num2} {num1 ^ num2}"
 
-    return ...
+print(bitwise_operations(5, 3))

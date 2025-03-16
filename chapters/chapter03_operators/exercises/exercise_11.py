@@ -5,4 +5,6 @@
 def area_of_triangle(base, height):
     # Your code should go here.
 
-    return ...
+    return base * height / 2
+
+print(area_of_triangle(3, 4))

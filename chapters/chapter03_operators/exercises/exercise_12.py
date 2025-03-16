@@ -8,4 +8,6 @@
 def calculate_hypotenuse(a, b):
     # Your code should go here.
 
-    return ...
+    return f"{(a**2 + b**2) ** 0.5}"
+
+print(calculate_hypotenuse(3, 4))

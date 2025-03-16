@@ -13,10 +13,12 @@
 
 
 def generate_stats_report(wins, losses, draws):
-    total_games = None
-    wins_percentage = None
-    losses_percentage = None
-    draws_percentage = None
+    total_games = wins + losses + draws
+    wins_percentage = (wins / (total_games) * 100)
+    losses_percentage = (losses / (total_games) * 100)
+    draws_percentage = (draws / (total_games) * 100)
     # Your code should go here.
 
     return f"The team played {total_games} games. They won {wins_percentage}% of the games, lost {losses_percentage}% of the games, and drew {draws_percentage}% of the games."  # noqa
+
+print(generate_stats_report(10, 7, 3))
