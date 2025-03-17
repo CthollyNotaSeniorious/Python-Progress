@@ -12,4 +12,6 @@ def is_prime(number):
     for i in range(2, number):
         if number % i == 0:
             return False
-    return False
+    return True
+
+print(f"{is_prime(2)}")

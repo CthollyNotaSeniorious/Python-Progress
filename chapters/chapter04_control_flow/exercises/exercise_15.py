@@ -7,8 +7,8 @@
 # There is a bug in the code below. Find it and fix it.
 
 
-def fizzbuzz(number: int) -> str:
-    if number % 3 == 0 or number % 5 == 0:
+def fizzbuzz(number):
+    if number % 3 == 0 and number % 5 == 0:
         return "FizzBuzz"
     elif number % 3 == 0:
         return "Fizz"
@@ -16,3 +16,5 @@ def fizzbuzz(number: int) -> str:
         return "Buzz"
     else:
         return str(number)
+
+print(fizzbuzz(25))
