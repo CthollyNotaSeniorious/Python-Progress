@@ -5,5 +5,7 @@
 
 def is_even(number):
     # Your code should go here.
+    result = "Genap" if number % 2 == 0 else "Ganjil"
+    return result
 
-    return ...
+print(is_even(-8))

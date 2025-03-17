@@ -9,5 +9,13 @@
 
 def grade_result(grade):
     # Your code should go here.
+    if grade >= 90 and grade <= 100:
+        return "A"
+    if grade >= 80 and grade < 90:
+        return "B"
+    if grade >= 70 and grade < 80:
+        return "C"
+    if grade < 70:
+        return "Not Pass"
 
-    return ...
+print(grade_result(79))

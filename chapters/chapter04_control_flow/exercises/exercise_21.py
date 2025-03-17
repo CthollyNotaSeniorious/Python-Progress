@@ -7,5 +7,10 @@
 
 def sum_numbers(start, end):
     # Your code should go here.
+    result = 0
+    for i in range (start, end + 1):
+        result += i
 
-    return ...
+    return result
+
+print(sum_numbers(10, 15))

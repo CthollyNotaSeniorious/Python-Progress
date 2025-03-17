@@ -14,5 +14,12 @@
 
 def is_alice_happy(alice_marks, bob_marks):
     # Your code should go here.
+    if alice_marks == 2*bob_marks:
+        return True
+    else:
+        return False
 
-    return ...
+alice_marks = int(input("Enter Alice Marks: "))
+bob_marks = int(input("Enter Bob Marks: "))
+
+print(is_alice_happy(alice_marks, bob_marks))

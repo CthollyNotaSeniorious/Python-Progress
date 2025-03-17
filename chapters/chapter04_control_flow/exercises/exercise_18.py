@@ -7,5 +7,11 @@
 
 def check_number(number):
     # Your code should go here.
+    if number > 0:
+        return f"Positive"
+    if number < 0:
+        return f"Negative"
+    if number == 0:
+        return f"Zero"
 
-    return ...
+print(check_number(0))
