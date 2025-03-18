@@ -7,6 +7,12 @@
 
 def sum_even_numbers(start, end):
     # Your code should go here.
-    
+    value = 0
+    for i in range(start, end):
+        if i % 2 == 0:
+            value += i
+        elif i % 2 == 1:
+            value += 0
+    return value
 
-    return ...
+print(sum_even_numbers(1, 7))

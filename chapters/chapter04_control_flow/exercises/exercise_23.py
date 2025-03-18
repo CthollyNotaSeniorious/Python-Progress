@@ -5,5 +5,8 @@
 
 def largest_index(elements):
     # Your code should go here.
+    if not elements:
+        return None
+    return elements.index(max(elements))
 
-    return ...
+print(largest_index([1, 2, 3, 4]))

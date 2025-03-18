@@ -6,4 +6,6 @@
 def calculate_total_length(words):
     # Your code should go here.
 
-    return ...
+    return sum(len(word) for word in words)
+
+print(calculate_total_length(['hello', 'world']))
